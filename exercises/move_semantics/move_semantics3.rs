@@ -25,5 +25,5 @@ fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
     vec.push(44);
     vec.push(66);
 
-    vec
+    vec.to_vec()
 }
